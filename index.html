@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookstagram</title>
+    <link rel="icon" type="image/x-icon" href="./icon/icons8-book-16.png"/>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <script src="./script.js"></script>
+
+  </head>
+  <body onload="render(), includeHTML()">
+    <div w3-include-html="templates/navigation.html"></div>
+    <div class="mainContainer">
+      <header id="header"></header>
+      <div id="content"></div>
+    </div>
+    <div class="rightSide">
+      <a href="./yourProfile.html"><img class="icon" src="./icon/user.png" />Dein Profil</a>
+      <h3>Vorschläge für Dich</h3>
+      <div id="proposals"></div>
+      <br />
+      <footer><a href="./impressum.html">Impressum</a></footer>
+    </div>
+    <div w3-include-html="templates/navigationFooter.html"></div>
+  </body>
+</html>
