@@ -316,6 +316,7 @@ button:hover {
   } 
   .liking img {
     height: 24px;
+    margin-right:8px;
   }
 }
 
